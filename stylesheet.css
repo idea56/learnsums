@@ -1,0 +1,181 @@
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- reset styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ HTML5 display-role reset for older browsers 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquotebefore, blockquoteafter,
+qbefore, qafter {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- reset styles */
+body{
+    background-color: #f9f9f9ff;
+}
+.sidebody{
+    width: 20%;
+    background-color: #666666ff;
+    border-right-color: #00ff7fff;
+    border-right-style: solid;
+    border-right-width: 10px;
+    height: 794px;
+    display: inline-block;
+    vertical-align: top;
+    position: static;
+}
+.img-head{
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.sidelink{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: antiquewhite;
+    border-color: #00ff7fff;
+    border-style: solid;
+    border-width: 2px;
+    text-decoration: none;
+}
+.side{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.mainframe{
+    display: inline-block;
+    width: 79%;
+    height: 794px;
+    vertical-align: bottom;
+    float:right;
+}
+.sumside{
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 1px;
+}
+.side:hover{
+    color: white;
+}
+.dashtitle{
+    font-size: 35px;
+    text-align: center;
+    color: #666666ff;
+    font-family: sans-serif;
+}
+.above-underbar{
+    font-size: 30px;
+    color: #666666ff;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+.underbar{
+    background-color: #00ff7fff;
+    height: 10px;
+    
+}
+.underbar-content{
+    font-size: 20px;
+    color: #666666ff;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.entry{
+    height: 20px;
+}
+.block{
+    width: 25%;
+    padding: 4px;
+    text-align: left;
+    padding: 4px;
+    color: #666666ff;
+    font-size: 11px;
+    font-family: sans-serif;
+}
+
+.table{
+    width: 100%;
+     border-style: solid;
+    border-color: #00ff7fff;
+    border-width: 3px;
+    padding-bottom: 10px;
+}
+
+.head-ent{
+    text-align: left;
+    padding: 4px;
+    color: #666666ff;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.fade{
+    background-image: linear-gradient(to right, #00ff7fff , #f9f9f9ff);
+    background-color: #00ff7fff;
+}
+.entry-box{
+    width: 100%;
+    margin-bottom: 2%;
+}
+.entry-box-section{
+    width: 550%;
+}
+.entry-box-title{
+    width: 45%;
+    vertical-align: top;
+    padding: 1%;
+    font-family: sans-serif;
+    color: #666666ff;
+    
+}
+.box-title{
+}
+.textbox{
+    width: 80%;
+    height: 75px;
+}
+.section-title{
+    font-family: sans-serif;
+    color: #666666ff;
+    font-size: 25px;
+    padding-left: 1%;
+    padding-top: 4%;
+    
+}
