@@ -51,7 +51,7 @@ body{
     border-right-color: #00ff7fff;
     border-right-style: solid;
     border-right-width: 10px;
-    height: 794px;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
     position: static;
